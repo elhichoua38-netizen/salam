@@ -1,0 +1,10 @@
+{
+  "name": "صفحة الإشعارات",
+  "short_name": "الإشعارات",
+  "start_url": "/",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#0f2027",
+  "theme_color": "#0f2027"
+}

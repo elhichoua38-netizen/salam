@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تفعيل الإشعارات</title>
+  <meta name="description" content="فعّل الإشعارات ليصلك كل جديد على موبايلك حتى بعد مغادرة الموقع.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+
+  <main class="card">
+    <div class="logo">🔔</div>
+    <h1>فعّل الإشعارات</h1>
+    <p class="sub">
+      اضغط على الزر بالأسفل ثم اختر <b>«السماح»</b> من النافذة التي ستظهر،
+      وستصلك أي رسالة يرسلها صاحب هذه الصفحة <b>كإشعار على موبايلك</b> —
+      حتى لو أغلقت الموقع أو خرجت منه.
+    </p>
+
+    <button type="button" id="enableBtn" hidden>
+      🔔 تفعيل الإشعارات
+    </button>
+
+    <div id="status" hidden></div>
+
+    <p class="foot">💡 الإشعارات تُرسل لك مباشرة من الصفحة ولا تتطلب أي تطبيق.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
