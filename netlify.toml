@@ -1,7 +1,0 @@
-[build]
-  publish = "public"
-  functions = "netlify/functions"
-
-[functions]
-  # المدة الزمنية المسموحة للدالة (ثانية)
-  node_bundler = "nft"
