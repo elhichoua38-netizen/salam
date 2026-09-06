@@ -1,9 +1,0 @@
-{
-  "name": "telegram-push-functions",
-  "private": true,
-  "version": "1.0.0",
-  "description": "Netlify Functions for Telegram push notifications",
-  "engines": {
-    "node": ">=18"
-  }
-}
